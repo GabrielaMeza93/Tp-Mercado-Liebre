@@ -1,0 +1,28 @@
+.home{
+    background-color: #EAC926;
+}
+
+.home__header{
+    font-family: var(--tipografiaGeneral);
+    font-size: 12px;
+}
+
+.home__main__section{
+    font-family: var(--tipografiaGeneral);
+    font-size: 24px;
+}
+
+.home__main__section__article{
+    font-family: var(--tipografiaGeneral);
+    font-size: 16px;
+}
+
+.home__main__section__article--precio{
+    font-family: var(--tipografiaGeneral);
+    font-size: 18px;
+}
+
+.home__footer{
+    font-family: var(--tipografiaGeneral);
+    font-size: 12px;
+}
