@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+
+h4{
+    color: var(--colorGrisOscuro);
+    margin-bottom: 20px;
+    line-height: 20px;
+    
+
+}
+
+p{
+    text-decoration: none;
+}
+
