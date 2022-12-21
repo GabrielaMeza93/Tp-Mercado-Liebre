@@ -1,0 +1,13 @@
+.header__nav{
+    text-align: left;
+    text-decoration: none;
+}
+.header__nav li{
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    margin: 10;
+    padding: 0;
+    color: black;
+}

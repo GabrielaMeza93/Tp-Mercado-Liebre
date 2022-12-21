@@ -1,20 +1,40 @@
 .home{
+    margin-block: 0;
+    margin: 0%;
+
     
 }
+a{
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    
+}
+ul{
+    list-style: none;
+    text-align: left;
+}
+
+p{
+    text-decoration: none;
+}
+
 
 .home__header{
     background-color: #EAC926;
     font-family: var(--tipografiaGeneral);
     color: black;
+    padding-bottom: 10%;
 }
 
 .home__header--compra{
-    text-align: left;
+    text-align: center;
     font-size: 18px;
 }
 
-.home-banner{
-    padding: 10px;
+.home__banner{
+    display: 100%;
+    padding: 0px
 
 }
 
@@ -25,30 +45,15 @@
     display: block;
     width: 40px;
     height: 40px;
-    font-size: 33px;
+    font-size: 30px;
     text-align: center;
     color: white;
 }
 
-.home__header__nav{
-    text-align: left;
-    text-decoration: none;
-   
-}
-
-.home__header__nav li{
-    text-decoration: none;
-    list-style: none;
-    text-align: left;
-    width: 100%;
-    margin: 10;
-    padding: 0;
-    color: black;
-}
-
 .home__main__section{
     font-family: var(--tipografiaGeneral);
-    font-size: 24px;
+    font-size: 18px;
+    color: #666;
 }
 
 .home__main__section__article{
@@ -62,62 +67,18 @@
     font-size: 18px;
 }
 
-.home__footer{
-    text-align: center;
-    font-family: var(--tipografiaGeneral);
-    font-size: 12px;
-    margin-bottom: 10px;
+
+@media (min-width:361px) {
+     .home__main__section__article--info{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+     }
+     .home__main__section__article__info h4{
+        display: none;
+     }
 }
 
-.home__footer--card{
-    border: none;
-    background-color: white;
-    margin: 10px auto 0;
-    display: block;
-    width: 40px;
-    height: 40px;
-    font-size: 2em;
-    color: #1259c3;   
-}
-
-.home__footer--gift{
-    border: none;
-    background-color: white;
-    margin: 50px auto 20px;
-    display: block;
-    width: 40px;
-    height: 40px;
-    font-size: 2em;
-    margin-bottom: 0px;
-    color: #1259c3;
-}
-
-.home__footer--user{
-    border: none;
-    background-color: white;
-    margin: 50px auto 20px;
-    display: block;
-    width: 40px;
-    height: 40px;
-    font-size: 2em;
-    margin-bottom: 0px;
-    color: #1259c3;
-}
-
-.home__footer h4{
-    list-style: 50px;
-    margin-bottom: 0;
-    font-size: 24px;
+/*deskop*/
+@media (min-width:769px) {
     
-}
-
-.home__footer p{
-    list-style: 20px;
-    font-size: 16px;
-    margin-bottom: 0;
-    color: #666;
-}
-
-.home__footer--copyright{
-    text-align: left;
+    
 }
