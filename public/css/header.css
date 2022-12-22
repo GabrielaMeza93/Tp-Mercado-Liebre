@@ -1,6 +1,12 @@
 .home__header{
-    background-color: yellow;
+    background-color: var(--colorAmarillo);
     padding: 10px;
+}
+
+.home__header--compra{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 100px;
 }
 
 .header__nav{
@@ -36,7 +42,5 @@
         text-decoration: none;
         display: block;
     }
-    .burger-menu{
-     display: none;
-    }
+  
 }

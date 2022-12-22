@@ -1,4 +1,3 @@
-FOOTER
 .home__footer{
     text-align: center;
     font-family: var(--tipografiaGeneral);
@@ -8,7 +7,6 @@ FOOTER
 
 .home__footer--card{
     border: none;
-    background-color: white;
     margin: 10px auto 0;
     display: block;
     width: 40px;
@@ -19,7 +17,6 @@ FOOTER
 
 .home__footer--gift{
     border: none;
-    background-color: white;
     margin: 50px auto 20px;
     display: block;
     width: 40px;
@@ -31,7 +28,6 @@ FOOTER
 
 .home__footer--user{
     border: none;
-    background-color: white;
     margin: 50px auto 20px;
     display: block;
     width: 40px;
@@ -57,4 +53,6 @@ FOOTER
 
 .home__footer--copyright{
     text-align: left;
+    padding: 50px
+
 }

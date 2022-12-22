@@ -27,10 +27,18 @@ p{
     padding-bottom: 10%;
 }
 
-.home__header--compra{
+.burger-menu{
+    border: none;
+    background-color: #1259c3;
+    margin: 0 auto 30px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
     text-align: center;
-    font-size: 18px;
+    color: white;
 }
+
 
 .home__banner{
     display: 100%;
@@ -80,7 +88,7 @@ p{
 .home__main__section__article--info i{
    border-radius: 50%;
    border: 1px solid #39b54a;
-   color: #39b54a;
+   color: var(--colorVerde);
    padding: 5px;
 }
 
