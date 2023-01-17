@@ -1,0 +1,7 @@
+.main__login{
+    text-align: center;
+}
+ .main__login__section--button input:hover{
+    background-color: #0022AA;
+  
+ }
